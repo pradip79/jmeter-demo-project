@@ -38,6 +38,6 @@ jobs:
 
     - name: Archive perf test HTML Report
       uses: actions/upload-artifact@v3
-        with:
-          name: per-test-report
-          path: target/jmeter/reports
+      with:
+        name: per-test-report
+        path: target/jmeter/reports
