@@ -33,11 +33,11 @@ jobs:
     - name: Archive perf test CSV results
       uses: actions/upload-artifact@v3
       with:
-        name: per-test-result
+        name: perf-test-result
         path: target/jmeter/results
 
     - name: Archive perf test HTML Report
       uses: actions/upload-artifact@v3
       with:
-        name: per-test-report
+        name: perf-test-report
         path: target/jmeter/reports
